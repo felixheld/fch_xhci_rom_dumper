@@ -11,3 +11,8 @@ Run the Program at your own risk.
 
 It's a quick-and-dirty written tool, which worked on my test platform.
 If you're unsure what this tool is for, don't run it ;)
+
+## address space layout seen from the V850E core
+
+0x00000000-0x00007FFF: boot ROM (extracted by this tool)
+0x00008000-0x0000FFFF: firmware RAM (code partition without version bytes of the firmware binary)
