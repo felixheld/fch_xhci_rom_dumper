@@ -59,7 +59,6 @@ int main(void)
 	pci_scan_bus(pacc);
 	for (dev=pacc->devices; dev; dev=dev->next){
 		pci_fill_info(dev, PCI_FILL_IDENT);
-        	//tested with 0x7814, but might still work with 0x7812
 		if(0x1022 == dev->vendor_id && (0x7814 == dev->device_id || 0x7812 == dev->device_id)){
 			dump_rom_to_file(dev);
 		}

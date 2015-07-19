@@ -1,7 +1,7 @@
 # fch_xhci_rom_dumper
 
 This program is for dumping the contents of the boot (mask) ROM of the uPD720200/200A XHCI controller used in the AMD FCHs.
-The Tool is tested with the Bolton D4 (aka A88X) FCH, but should also work with the Hudson FCHs.
+The tool is tested with Bolton D4 (aka A88X) and Hudson D4 (aka A85X) FCH.
 
 You need the libpci headers installed to compile.
 
