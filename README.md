@@ -12,6 +12,8 @@ Run the Program at your own risk.
 It's a quick-and-dirty written tool, which worked on my test platform.
 If you're unsure what this tool is for, don't run it ;)
 
+The boot ROM of the XHCI controller this tool reads out and the runtime-loaded firmware part are separate binaries; the latter can either be extracted from the firmware image or obtained from the coreboot blobs repo.
+
 ## address space layout seen from the V850E core
 
 0x00000000-0x00007FFF: boot ROM (extracted by this tool)
